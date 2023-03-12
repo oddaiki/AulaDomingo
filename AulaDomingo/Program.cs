@@ -31,8 +31,10 @@ namespace AulaDomingo
             {
                 Console.WriteLine(nome + " Falta(m) " + (maioridade - idade) + " anos e " +
                     meses + " meses para completar a maioridade");
+                Console.WriteLine("Por isso não poderá dirigir ou beber");
                 Console.ReadLine();
             }
+        
         }
     }
 }
